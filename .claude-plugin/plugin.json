@@ -1,0 +1,19 @@
+{
+  "name": "prompt-forge",
+  "description": "Build, improve, and battle-test prompts. Interviews you about the task, forges a structured prompt using proven prompt-engineering patterns, tests it against real sample inputs until it behaves, then saves it to your prompt library — or turns it into a reusable slash command.",
+  "version": "0.1.0",
+  "author": {
+    "name": "plumbgoat",
+    "url": "https://github.com/plumbgoat"
+  },
+  "keywords": [
+    "prompt",
+    "prompt-engineering",
+    "prompt-builder",
+    "templates",
+    "productivity"
+  ],
+  "homepage": "https://github.com/plumbgoat/prompt-forge",
+  "repository": "https://github.com/plumbgoat/prompt-forge",
+  "license": "MIT"
+}

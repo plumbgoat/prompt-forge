@@ -1,0 +1,28 @@
+{
+  "name": "prompt-forge-marketplace",
+  "description": "Home of prompt-forge — build, improve, and battle-test prompts, then save them as reusable commands.",
+  "owner": {
+    "name": "plumbgoat"
+  },
+  "plugins": [
+    {
+      "name": "prompt-forge",
+      "source": "./",
+      "description": "Forge structured prompts from vague ideas, test them on real inputs, and save the winners as reusable slash commands.",
+      "author": {
+        "name": "plumbgoat"
+      },
+      "homepage": "https://github.com/plumbgoat/prompt-forge",
+      "repository": "https://github.com/plumbgoat/prompt-forge",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "prompt",
+        "prompt-engineering",
+        "prompt-builder",
+        "templates",
+        "productivity"
+      ]
+    }
+  ]
+}
