@@ -73,7 +73,7 @@ Re-test → calm ticket no longer flagged. ✔
 **3. Keep** — save the winner:
 
 ```
-Saved to prompts/support-digest.md — or turn it into /support-digest?
+Saved to .claude/prompts/support-digest.md — or turn it into /support-digest?
 ```
 
 Next time it's just `/support-digest`.

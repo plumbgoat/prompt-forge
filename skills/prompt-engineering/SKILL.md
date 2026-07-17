@@ -72,8 +72,9 @@ say so — that's the signal it's ready.
 
 Offer both, do whichever they pick:
 
-- **Prompt library**: append to `prompts/<slug>.md` in the project (create
-  the directory if absent) with a one-line header: purpose, variables,
+- **Prompt library**: append to `.claude/prompts/<slug>.md` in the project
+  (create the `.claude/prompts/` directory if absent — it sits alongside the
+  `.claude/commands/` output below) with a one-line header: purpose, variables,
   date. Check the file doesn't already exist; if it does, version the slug.
 - **Slash command**: write `.claude/commands/<slug>.md` with frontmatter
   (`description`, `argument-hint`) and the prompt body using `$ARGUMENTS`
