@@ -1,5 +1,7 @@
 .sprint-report.json
 .claude/settings.local.json
+.claude/prompts/
+.claude/commands/
 __pycache__/
 *.pyc
 .DS_Store
