@@ -47,6 +47,13 @@ Rules of thumb:
   line for factuality.
 - Match prompt length to task complexity. A short prompt that's precise
   beats a long one that hedges.
+- Mind the per-call token cost. Few-shot examples are the main weight, and
+  they're re-sent on every run — so when a prompt is example-heavy or headed
+  for reuse (a slash command, or a high-volume API call), flag that in the
+  hand-off and offer the leaner version: fewer/smaller examples, or zero-shot
+  if the format is simple. Mention that API prompt caching can absorb a static
+  example prefix so it isn't paid in full each call. Don't sacrifice the
+  examples' value for a trivial saving — flag the trade, let the user choose.
 
 Present the forged prompt in a code block, followed by a 3–5 bullet
 "why it's built this way" — teach, don't just deliver.
